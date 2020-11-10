@@ -1,0 +1,123 @@
+ 
+   /* 
+   زينب فلاح محمد/معلومات /صباحي
+
+*/
+
+
+
+
+body
+{
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/d9.jpg) no-repeat;
+    background-size: cover;
+    position: center;
+    height: 100vh;
+    
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+  }
+.signin
+{
+    background: rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 250px;
+    margin: auto;
+    margin-top: 90px;
+    height: 400px;
+    margin-left: 180x;
+    
+}
+form
+{
+    width: 240px;
+    text-align: center;
+}
+input
+{
+    width: 240px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+}
+input[type=button]
+{
+    border: none;
+    width: 190px;
+    background: white;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color: #fff;
+    background-color:  #b150e9;
+}
+h2
+{
+    color: white;
+    
+}
+a
+{
+    color: #b150e9;
+    text-decoration: blink;
+}
+a:hover
+{
+    color: rgb(228, 194, 235);
+}
+.signup{
+    text-decoration: none;
+     font-family: 'Play', sans-serif; 
+     background-color: transparent;
+     background: white;
+    color: #000;
+    margin-right: 15px;
+    border: none;
+    width: 190px;
+    
+    
+    font-size: 18px;
+    line-height: 20px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+.signup:hover
+    {
+        
+        color: #fff;
+        background-color:  #b150e9;
+      }
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; 
+}
